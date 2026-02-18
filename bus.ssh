@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-echo "one6 two"
+# Сначало git add file
+# После коминтим git commin -a
+# Если чет не получается можно git pull origin main --rebase, git push
