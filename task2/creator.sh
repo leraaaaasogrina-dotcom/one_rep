@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-
-for i in {1..10}; do 
-touch "file$i.txt";
- done
+sum=0
+for i in {1..20}; do
+sum=$((sum+i))
+done 
+echo "Сумма: $sum"
 
